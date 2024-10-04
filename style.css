@@ -1,0 +1,83 @@
+ol{
+    background-color: brown;
+}
+
+*{
+color: chocolate;
+}
+
+body{
+    border: 1px solid gray;
+}
+
+[class*=st]{
+    color: blueviolet;
+}
+
+.test5{
+    color: chartreuse;
+}
+
+#imp{
+    color: darkgoldenrod;
+}
+
+.test3::first-letter{
+    color: red;
+}
+a:visited{
+    color: yellowgreen ;
+}
+
+.bgStyle{
+    height: 700px;
+    width: 700px; 
+    border: 2px solid peru;
+    margin: 10%;
+    text-align: center;
+    background-image: url("https://cdn.pixabay.com/photo/2023/12/11/12/51/lynx-8443540_640.jpg");
+    background-color: beige;
+    background-size: 700px 700px;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover ;
+    background-position: center;
+  
+}
+
+/* .posBox{
+    padding: 70px;
+    border: 1px dotted #333;
+    margin: 10px;
+    position: relative;
+    
+}
+
+.posBox article{
+    position: absolute;
+    top: 50px;
+    background-color: chartreuse;
+}
+
+.posBox h1{
+    position: absolute;
+    right: 0px;
+}
+
+.posBox h2{
+    position: absolute;
+    margin: -6px;
+    bottom: 0;
+    padding: 0;
+} */
+
+.propStick{
+    width: auto;
+    background-color: crimson;
+    position: fixed;
+    top: 100px;
+}
+
+
+
+
