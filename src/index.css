@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.navList > ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 10px 10px 10px 0px;
+}
+
+.navList>ul>li{
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.navList>ul>li:hover{
+  color: aqua;
+}
+
+.logo{
+  margin: 10px 0px 10px 10px;
+}
+
+.card{
+  border: 1px solid black;
+  padding: 20px;
+  background-color: gainsboro;
+  min-height: 350px;
+  width: 250px;
+}
+
+.skcard{
+  background-color: lightgrey;
+  min-height: 350px;
+  width: 250px;
+  border-radius: 20px;
+}
+
+.sktitleDiv{
+  height: 30%;
+  width: 100%;
+ margin-top: 85%;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+.skDiv2{
+  display: flex;
+}
+
+.skcardTitle{
+  background-color: lightgoldenrodyellow;
+  height: 20px;
+  width: 80%;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.cardImage{ 
+  height: 250px;
+  width: 250px;
+}
+
+.cardTitle , .cardPrice, .cardDisc{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.cardHolder{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.search{
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+}
